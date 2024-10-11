@@ -1,0 +1,196 @@
+/* Your styles here */
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edee;
+}
+
+h6{
+    font-size: 0.7rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.17rem;
+}
+
+h4{
+    font-size: 0.7rem;
+}
+
+h5{
+    font-size: 0.7rem;
+}
+
+a{
+    color: #16636f;
+    font-size:0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#navbar{
+    width:100%;
+    height: 50px;
+    display: block;
+    background-color: #222f3f;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar img{
+    display: block;
+    height: 35px;
+    width: auto;
+    margin-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+#itemNavbar{
+    display: block;
+    margin: 0;
+    padding-left:40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #364759;
+    color: white;
+    
+}
+
+#itemNavbar li{
+    display: inline-block;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+main{
+    display: block;
+    margin:40px;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    
+    text-align: center;
+}
+
+main h4{
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+    background-color: #f96400;
+}
+
+#bgContainer {
+    display: block;
+    margin-top: 20px;
+    background-image: url(/assets/bg-image.png);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 130px;
+    
+}
+
+#bgContainer h1{
+    padding: 25px;
+    color: white;
+}
+
+#bgContainer h3{
+    padding-top:0px;
+    color: white;
+}
+
+
+#textCardCointainer{
+    height: 380px;
+    background-color: white;
+    margin-top: 25px;
+    padding-top: 20px;
+    text-align: start;
+    
+}
+
+#textCardCointainer h3{
+    display: inline;
+    margin: 1%;
+    margin-left:20px;
+}
+#textCardCointainer h5{
+    display: inline;
+    background:none;
+    color: #16636f;
+}
+
+#card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    height: 100%;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+  
+  #card {
+    flex: 1 1 calc(25% - 20px);
+    margin: 10px; 
+    
+    height: auto; 
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 16px; 
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.3);
+    max-height: 300px; 
+  }
+
+  #imgCointainer{
+    width: 100%;
+    height: 400px;
+    background-size: cover; 
+    background-position: center; 
+    margin-top: 25px;
+}
+
+#textImgCointainer{
+    margin: 0px;
+}
+#textImgCointainer h3,a{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+footer{
+    text-align: center;
+}
+#backto{
+    color: white;
+    background-color: #364759;
+    padding: 1%;
+}
+
+#backto a{
+    color:white;
+    text-decoration: underline;
+
+}
+
+#logoFooter{
+    background-color: #222f3f;
+    padding: 2%;
+}
+
+#logoFooter img{
+    height: 70px;
+    width: auto;
+}
